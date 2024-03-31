@@ -1,8 +1,8 @@
 import requests
 
-import config
-from models import Products
-from utils import load_json_file, save_json_file
+from src import config
+from src.models import Products
+from src.utils import load_json_file, save_json_file
 
 
 class MetroParser:
